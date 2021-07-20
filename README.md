@@ -11,7 +11,7 @@ I used the vscode editor, while the Intellij was used in the video.
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 - This app is being hosted by firebase.
 - only google sign in, default sign up/in, signout(via clicking avatar image), post and reply functionality are implemnted. The others are just UI.
-- In personal, this project is not proper for react beginner and who wants to get used to write a variety of react hooks. Might be appropirate for Redux newbie.
+- In personal, this project is not proper for react beginner and who wants to get used to write a variety of react hooks. Might be appropriate for Redux newbie.
 
 ## Scripts
 
