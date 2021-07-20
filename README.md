@@ -18,3 +18,8 @@ I used the vscode editor, while the Intellij was used in the video.
 - `yarn start`: dev mode
 - `yarn build`: production build
 
+## To run this app
+
+- `git clone`(or just download) and move to the project root path on the terminal.
+- run `yarn`
+- After installation finishes, run `yarn start` and check `localhost:3000`
