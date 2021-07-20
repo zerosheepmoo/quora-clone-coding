@@ -1,0 +1,201 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qheader-logo > img {
+    margin-right: 20px;
+    height: 70px;
+    /* 비율 유지한채로 부모컨테이너 맞게 줄여줄게 */
+    object-fit: contain; 
+    margin-left: 15px;
+    filter: hue-rotate(270deg);
+}
+
+.qheader-icons {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    transform: none;
+}
+
+.qheader-icon > .MuiSvgIcon-root {
+    color: #E4A0F7;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.qheader-icon > .MuiSvgIcon-root:hover {
+    color: white;
+    background-color: #E4A0F7;
+    transform: scale(1.1);
+}
+
+.qheader-search-input {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    border: 1px solid #D7BFDC;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.qheader-search-input > input {
+    background-color: transparent;
+    outline: none;
+    width: 400px;
+    border: none;
+    color: rgb(49,49,49);
+}
+
+.qheader-search-input > .MuiSvgIcon-root {
+    color: #E4A0F7
+}
+
+.qheader-search-input > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+
+.qheader-rem {
+    display: flex;
+    align-items: center;
+}
+
+.qheader-rem > .qheader-avatar {
+    cursor: pointer;
+}
+
+.qheader-rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #E4A0F7;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.qheader-rem > .MuiSvgIcon-root:hover{
+    color: rgb(200, 200, 200);
+}
+
+.qheader-rem > .MuiButton-root {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    text-transform: inherit;
+    background-color: #E4A0F7;
+    border-radius: 20px;
+}
+.qheader-rem > .MuiButton-root:hover{
+    color: #E4A0F7;
+    background-color: white;
+}
+
+
+.modal-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal-title > h5 {
+    color: #E4A0F7;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.modal-title > h5:hover {
+    color: rgba(241,241,241);
+}
+
+.modal-info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal-info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.modal-info > .modal-scope {
+    display: flex;
+    align-items: center;
+    color: #E4A0F7;
+    padding: 5px;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 33px;
+    cursor: pointer;
+
+}
+
+.modal-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.modal-field > .modal-field-link {
+    color : #E4A0F7;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.modal-field > .modal-field-link > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left : 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+}
+
+.modal-buttons > .can {
+    margin-left: auto;
+    border:none;
+    margin-top: 5px;
+    outline:none;
+    color:#E4A0F7;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius:33px;
+    cursor: pointer;
+}
+
+.modal-buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color:#E4A0F7;
+    color:white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}

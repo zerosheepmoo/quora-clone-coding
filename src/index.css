@@ -1,3 +1,8 @@
+/* 기본 마진 0으로 */
+* {
+  margin: 0px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

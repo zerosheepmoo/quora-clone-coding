@@ -1,0 +1,224 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://miro.medium.com/max/4800/1*U_qMLDs5RMkaSbHpwwlwzQ.png");
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.login-logo {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+.login-logo > img {
+    object-fit: contain;
+    filter: hue-rotate(270deg);
+}
+
+.login-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login-desc > h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.login-desc > p {
+    color: #E4A0F7;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login-auth {
+    display: flex;
+    margin-top: 50px;
+}
+
+.login-auth-options {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.login-auth-option {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-auth-option:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.login-auth-option > img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.login-auth-option > p {
+    margin-left: 11px;
+}
+
+.login-auth-desc {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.login-auth-desc > p {
+    font-size: small;
+    color: #E4A0F7;
+}
+
+.login-email-pass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 20px;
+}
+
+.login-label > h4 {
+    padding: 5px;
+}
+
+.login-input-fields {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login-input-field {
+    padding: 5px;
+}
+
+.login-input-field > input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.login-forg-btn {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-forg-btn > small {
+    color: #E4A0F7;
+    cursor: pointer;
+}
+
+.login-forg-btn > small:hover {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
+
+.login-forg-btn > .MuiButton-root {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #E4A0F7;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* 로그인 */
+
+.login-email-pass > .MuiButton-root {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #E4A0F7;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* 회원가입 */
+
+.login-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.login-lang > p {
+    color: #E4A0F7;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.login-lang > p:hover {
+    color: #E4A0F7;
+    margin-right:5px;
+    text-decoration: underline;
+}
+
+.login-lang > .MuiSvgIcon-root {
+    color: #E4A0F7;
+}
+
+
+
+.login-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+.login-footer > p {
+    color: #E4A0F7;
+    cursor: pointer;
+    font-size: small;
+}
+
+
+.login-footer > p:hover {
+    text-decoration: underline;
+}
+
+/* extra */
+
+.login-external-auth {
+    width: 60px;
+}

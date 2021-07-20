@@ -1,0 +1,44 @@
+.quora-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border:1px solid #D7BFDC;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quora-box:hover {
+    border: 2px solid #702963;
+}
+/* 박스에 마우스 올려졋을때 효과 */
+
+
+.quora-box-info {
+    display: flex;
+    align-items: center;
+}
+
+/*윗부분 info 에 나열 방식 */
+
+.quora-box-info > h5 {
+    color: #E4A0F7;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+/* 아바타옆에 글쓴이에 대한 정보 */
+
+.quora-box-quora {
+    display:flex;
+    margin-top: 8px;
+}
+
+/*밑에 부분 보여지는거 설정*/
+.quora-box-quora > p {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* 박스 안에 글짜 색 굵기 크기*/
